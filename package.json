@@ -1,0 +1,39 @@
+{
+  "name": "graphqlgen-knex",
+  "version": "0.0.1",
+  "description": "graphqlgen args to Knex Query",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garik-/graphql-knex.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "start": "ts-node src/index.ts",
+    "build": "tsc --build"
+  },
+  "keywords": [
+    "GraphQL",
+    "graphqlgen",
+    "knex",
+    "typescript"
+  ],
+  "author": "Gar|k <garik.djan@gmail.com>",
+  "private": false,
+  "dependencies": {
+    "knex": "^0.16.3"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.3.4000"
+  },
+  "license": "MIT"
+}

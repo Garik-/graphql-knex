@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "sourceMap": false,
+      "outDir": "build",
+      "strictFunctionTypes": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "lib": ["esnext", "dom"]
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}

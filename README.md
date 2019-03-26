@@ -1,0 +1,1 @@
+# graphqlgen args to Knex Query
