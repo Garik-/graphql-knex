@@ -4,7 +4,7 @@
   "description": "graphqlgen args to Knex Query",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Garik-/graphql-knex.git"
+    "url": "git+https://github.com/Garik-/graphqlgen-knex.git"
   },
   "husky": {
     "hooks": {

@@ -14,7 +14,7 @@ type StatisticOrderByInput =
   | "createdAt_ASC"
   | "createdAt_DESC"
 
-  export namespace QueryResolvers {
+
   export interface StatisticWhereInput {
       // AND: StatisticWhereInput[]
       // OR: StatisticWhereInput[]
@@ -76,4 +76,3 @@ type StatisticOrderByInput =
       first: number | null
       last: number | null
   }
-}
